@@ -14,10 +14,10 @@
 		D7650870214D8C9F0006C17E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D765086E214D8C9F0006C17E /* LaunchScreen.storyboard */; };
 		D765087B214D8C9F0006C17E /* GolfStatTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D765087A214D8C9F0006C17E /* GolfStatTrackerTests.swift */; };
 		D7650886214D8C9F0006C17E /* GolfStatTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7650885214D8C9F0006C17E /* GolfStatTrackerUITests.swift */; };
-		D7650894214D8E750006C17E /* HistoryTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7650893214D8E750006C17E /* HistoryTableTableViewController.swift */; };
 		D7650896214D8E900006C17E /* RoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7650895214D8E900006C17E /* RoundViewController.swift */; };
 		D7650898214D8EA00006C17E /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7650897214D8EA00006C17E /* StatsViewController.swift */; };
 		D765089A214D93CC0006C17E /* HoleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7650899214D93CC0006C17E /* HoleCollectionViewCell.swift */; };
+		D7D156B721534AD500365BDF /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D156B621534AD500365BDF /* HistoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +51,10 @@
 		D7650881214D8C9F0006C17E /* GolfStatTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfStatTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7650885214D8C9F0006C17E /* GolfStatTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfStatTrackerUITests.swift; sourceTree = "<group>"; };
 		D7650887214D8C9F0006C17E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7650893214D8E750006C17E /* HistoryTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableTableViewController.swift; sourceTree = "<group>"; };
 		D7650895214D8E900006C17E /* RoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViewController.swift; sourceTree = "<group>"; };
 		D7650897214D8EA00006C17E /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		D7650899214D93CC0006C17E /* HoleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7D156B621534AD500365BDF /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +111,10 @@
 				D765086E214D8C9F0006C17E /* LaunchScreen.storyboard */,
 				D7650871214D8C9F0006C17E /* Info.plist */,
 				D7650869214D8C9E0006C17E /* GolfStatTracker.xcdatamodeld */,
-				D7650893214D8E750006C17E /* HistoryTableTableViewController.swift */,
 				D7650895214D8E900006C17E /* RoundViewController.swift */,
 				D7650897214D8EA00006C17E /* StatsViewController.swift */,
 				D7650899214D93CC0006C17E /* HoleCollectionViewCell.swift */,
+				D7D156B621534AD500365BDF /* HistoryTableViewController.swift */,
 			);
 			path = GolfStatTracker;
 			sourceTree = "<group>";
@@ -270,8 +270,8 @@
 			files = (
 				D765089A214D93CC0006C17E /* HoleCollectionViewCell.swift in Sources */,
 				D765086B214D8C9E0006C17E /* GolfStatTracker.xcdatamodeld in Sources */,
+				D7D156B721534AD500365BDF /* HistoryTableViewController.swift in Sources */,
 				D7650863214D8C9E0006C17E /* AppDelegate.swift in Sources */,
-				D7650894214D8E750006C17E /* HistoryTableTableViewController.swift in Sources */,
 				D7650898214D8EA00006C17E /* StatsViewController.swift in Sources */,
 				D7650896214D8E900006C17E /* RoundViewController.swift in Sources */,
 			);

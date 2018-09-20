@@ -1,14 +1,16 @@
 //
-//  HistoryTableTableViewController.swift
+//  HistoryTableViewController.swift
 //  GolfStatTracker
 //
-//  Created by Devereaux, Nick on 9/15/18.
+//  Created by Devereaux, Nick on 9/19/18.
 //  Copyright © 2018 Devereaux, Nick. All rights reserved.
 //
 
 import UIKit
 
-class HistoryTableTableViewController: UITableViewController {
+class HistoryTableViewController: UITableViewController {
+
+    let rounds = ["Eagle Trace", "Broken Tee"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,23 +31,23 @@ class HistoryTableTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return rounds.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "round", for: indexPath)
 
-        // Configure the cell...
+        cell.textLabel?.text = rounds[indexPath.row]
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
